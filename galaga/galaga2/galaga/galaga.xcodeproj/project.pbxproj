@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34956DB1196B893000AF8B28 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34956DB0196B893000AF8B28 /* ResourcePath.mm */; };
+		34956DB4196B893000AF8B28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34956DB3196B893000AF8B28 /* main.cpp */; };
+		34956DB7196B893000AF8B28 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34956DB6196B893000AF8B28 /* cute_image.jpg */; };
+		34956DB9196B893000AF8B28 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 34956DB8196B893000AF8B28 /* nice_music.ogg */; };
+		34956DBB196B893000AF8B28 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34956DBA196B893000AF8B28 /* sansation.ttf */; };
+		34956DBD196B893000AF8B28 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34956DBC196B893000AF8B28 /* icon.png */; };
+		34956DCA196B8A8F00AF8B28 /* enemy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34956DC3196B8A8F00AF8B28 /* enemy.jpg */; };
+		34956DCB196B8A8F00AF8B28 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 34956DC4196B8A8F00AF8B28 /* explosion.png */; };
+		34956DCC196B8A8F00AF8B28 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 34956DC5196B8A8F00AF8B28 /* ship.png */; };
+		34956DCD196B8A8F00AF8B28 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34956DC7196B8A8F00AF8B28 /* explosion.mp3 */; };
+		34956DCE196B8A8F00AF8B28 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34956DC8196B8A8F00AF8B28 /* explosion.wav */; };
+		34956DCF196B8A8F00AF8B28 /* firing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34956DC9196B8A8F00AF8B28 /* firing.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34956DAB196B893000AF8B28 /* galaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = galaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34956DAF196B893000AF8B28 /* galaga-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "galaga-Info.plist"; sourceTree = "<group>"; };
+		34956DB0196B893000AF8B28 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		34956DB2196B893000AF8B28 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		34956DB3196B893000AF8B28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		34956DB6196B893000AF8B28 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		34956DB8196B893000AF8B28 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		34956DBA196B893000AF8B28 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		34956DBC196B893000AF8B28 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		34956DC3196B8A8F00AF8B28 /* enemy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enemy.jpg; sourceTree = "<group>"; };
+		34956DC4196B8A8F00AF8B28 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		34956DC5196B8A8F00AF8B28 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		34956DC7196B8A8F00AF8B28 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		34956DC8196B8A8F00AF8B28 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		34956DC9196B8A8F00AF8B28 /* firing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = firing.wav; sourceTree = "<group>"; };
+		34956DD0196B8AC600AF8B28 /* galaga.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = galaga.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34956DA7196B893000AF8B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34956DA1196B893000AF8B28 = {
+			isa = PBXGroup;
+			children = (
+				34956DAD196B893000AF8B28 /* galaga */,
+				34956DAC196B893000AF8B28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34956DAC196B893000AF8B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34956DAB196B893000AF8B28 /* galaga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34956DAD196B893000AF8B28 /* galaga */ = {
+			isa = PBXGroup;
+			children = (
+				34956DB0196B893000AF8B28 /* ResourcePath.mm */,
+				34956DB2196B893000AF8B28 /* ResourcePath.hpp */,
+				34956DB3196B893000AF8B28 /* main.cpp */,
+				34956DB5196B893000AF8B28 /* Resources */,
+				34956DAE196B893000AF8B28 /* Supporting Files */,
+				34956DD0196B8AC600AF8B28 /* galaga.hpp */,
+			);
+			path = galaga;
+			sourceTree = "<group>";
+		};
+		34956DAE196B893000AF8B28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34956DAF196B893000AF8B28 /* galaga-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34956DB5196B893000AF8B28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34956DC3196B8A8F00AF8B28 /* enemy.jpg */,
+				34956DC4196B8A8F00AF8B28 /* explosion.png */,
+				34956DC5196B8A8F00AF8B28 /* ship.png */,
+				34956DC6196B8A8F00AF8B28 /* soundeffects */,
+				34956DB6196B893000AF8B28 /* cute_image.jpg */,
+				34956DB8196B893000AF8B28 /* nice_music.ogg */,
+				34956DBA196B893000AF8B28 /* sansation.ttf */,
+				34956DBC196B893000AF8B28 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		34956DC6196B8A8F00AF8B28 /* soundeffects */ = {
+			isa = PBXGroup;
+			children = (
+				34956DC7196B8A8F00AF8B28 /* explosion.mp3 */,
+				34956DC8196B8A8F00AF8B28 /* explosion.wav */,
+				34956DC9196B8A8F00AF8B28 /* firing.wav */,
+			);
+			path = soundeffects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34956DAA196B893000AF8B28 /* galaga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34956DC0196B893000AF8B28 /* Build configuration list for PBXNativeTarget "galaga" */;
+			buildPhases = (
+				34956DA6196B893000AF8B28 /* Sources */,
+				34956DA7196B893000AF8B28 /* Frameworks */,
+				34956DA8196B893000AF8B28 /* Resources */,
+				34956DA9196B893000AF8B28 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = galaga;
+			productName = galaga;
+			productReference = 34956DAB196B893000AF8B28 /* galaga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34956DA2196B893000AF8B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mmhoust;
+			};
+			buildConfigurationList = 34956DA5196B893000AF8B28 /* Build configuration list for PBXProject "galaga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34956DA1196B893000AF8B28;
+			productRefGroup = 34956DAC196B893000AF8B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34956DAA196B893000AF8B28 /* galaga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34956DA8196B893000AF8B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34956DCE196B8A8F00AF8B28 /* explosion.wav in Resources */,
+				34956DBD196B893000AF8B28 /* icon.png in Resources */,
+				34956DBB196B893000AF8B28 /* sansation.ttf in Resources */,
+				34956DCA196B8A8F00AF8B28 /* enemy.jpg in Resources */,
+				34956DCB196B8A8F00AF8B28 /* explosion.png in Resources */,
+				34956DCD196B8A8F00AF8B28 /* explosion.mp3 in Resources */,
+				34956DB9196B893000AF8B28 /* nice_music.ogg in Resources */,
+				34956DCF196B8A8F00AF8B28 /* firing.wav in Resources */,
+				34956DB7196B893000AF8B28 /* cute_image.jpg in Resources */,
+				34956DCC196B8A8F00AF8B28 /* ship.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34956DA9196B893000AF8B28 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n    \n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n    \n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ] && [ $SFML_LINK_DYLIBS_SUFFIX_DEBUG != \"\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34956DA6196B893000AF8B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34956DB4196B893000AF8B28 /* main.cpp in Sources */,
+				34956DB1196B893000AF8B28 /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34956DBE196B893000AF8B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		34956DBF196B893000AF8B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		34956DC1196B893000AF8B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "galaga/galaga-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34956DC2196B893000AF8B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "galaga/galaga-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34956DA5196B893000AF8B28 /* Build configuration list for PBXProject "galaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34956DBE196B893000AF8B28 /* Debug */,
+				34956DBF196B893000AF8B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34956DC0196B893000AF8B28 /* Build configuration list for PBXNativeTarget "galaga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34956DC1196B893000AF8B28 /* Debug */,
+				34956DC2196B893000AF8B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34956DA2196B893000AF8B28 /* Project object */;
+}

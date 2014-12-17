@@ -1,0 +1,20 @@
+//
+//  Grid.cpp
+//  Tetris
+//
+//  Created by Matthew Houston on 7/26/14.
+//  Copyright (c) 2014 mmhoust. All rights reserved.
+//
+
+#include "Grid.h"
+
+Grid::Grid(){
+    for (int i = 0; i<15; ++i){
+        std::vector<std::unique_ptr<Block>> tempRow;
+        for (int j = 0; j < 15; ++j){
+            unique_ptr<Block> block = new Block(i,j);
+            tempRow.push_back(std::move(block));
+        }
+        grid.push_back(tempRow)
+    }
+}
